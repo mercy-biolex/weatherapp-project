@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+  color: #4b5c52;
+}
+
+h1 {
+  color: palevioletred;
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+h3 {
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+form {
+  display: flex;
+}
+
+.searched {
+  height: 250px;
+}
+
+.mainImage {
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: 3px solid plum;
+}
+
+.small {
+  width: 60px;
+  border-radius: 10px;
+  border: 2px solid #ff9ab0;
+}
+
+.container-md {
+  background-color: whitesmoke;
+  border-radius: 9px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  max-width: 700px;
+  padding: 40px;
+  font-family: "Bitter", serif;
+}
+
+.mb-3 {
+  display: inline;
+  width: 50%;
+}
+
+.cards {
+  height: 180px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.card {
+  width: 100px;
+  background-color: burlywood;
+  box-shadow: 0 10px 3px 2px blueviolet;
+  height: 150px;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+  border: 3px solid burlywood;
+}
+
+.card:hover {
+  box-shadow: 0 10px 6px 6px darkturquoise;
+}
+
+.card-title:hover {
+  font-size: 35px;
+}
+
+.card-title {
+  font-size: 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn {
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.nav {
+  background-color: brown;
+  border-radius: 9px;
+  border: 2px solid peachpuff;
+}
+
+.mainCity {
+  background-color: pink;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 3px 2px #698474;
+  margin-right: 40px;
+  margin-left: 10px;
+  border: 3px solid #ff9ab0;
+}
+
+.details {
+  background-color: #ffd3b6;
+  border-radius: 40px;
+  margin: 0 10px;
+  box-shadow: 0 10px 3px 2px #698474;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 25px;
+  border: 3px solid #ff9ab0;
+}
+
+.condition {
+  font-size: 30px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.weather {
+  font-size: 65px;
+  padding-left: 45px;
+}
+
+.btncolor1 {
+  background-color: #fcb8b8;
+  border: #ff9ab0;
+}
+
+.btncolor2 {
+  background-color: #ff9ab0;
+  border: #fcb8b8;
+  color: white;
+}
